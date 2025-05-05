@@ -331,6 +331,8 @@ def calculate_tokens():
 
 if __name__ == '__main__':
 
+    # tatoeba
+    
     # "fr" for French
     # "de" for German
     # "ru" for Russian
@@ -353,6 +355,10 @@ if __name__ == '__main__':
                             "../../data/tatoeba_google_Spanish_English_pairs.tsv"]
 
     # Europarl
+    # "fr" for French
+    # "de" for German
+    # "it" for Italian
+    # "es" for Spanish
     europarl_languages = ["fr", "de", "it", "es"]
 
     europarl_original_paths = ["../../europarl/fr-en/europarl-v7.fr-en.fr",
@@ -380,6 +386,10 @@ if __name__ == '__main__':
                                               "../../europarl/1000/1000_google_cloud_Italian_English_pairs.tsv",
                                               "../../europarl/1000/1000_google_cloud_Spanish_English_pairs.tsv"]
 
+    # "fr" for French
+    # "de" for German
+    # "fi" for Finnish
+    # "el" for Greek
     europarl_new_languages = ["fr", "de", "fi", "el"]
 
     europarl_fi_el_original_paths = ["../../europarl/fi-en/europarl-v7.fi-en.fi",
@@ -399,6 +409,8 @@ if __name__ == '__main__':
                                               "../../europarl/1000/1000_google_Greek_English_pairs.tsv"]
 
     # Reddit
+    # "fr" for French
+    # "ja" for Japanese
     reddit_languages = ["ja", "fr"]
 
     reddit_pairs_paths = ["../../reddit/unified_filtered_ja-en.tsv",
